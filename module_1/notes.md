@@ -15,7 +15,7 @@ The goal is to make the student, by the end of the course, a very knowledgable p
 
 The slack channel can be accessed [here](https://introtocar.slack.com)
 
-AMA session [here](https://www.youtube.com/watch?v=Ap8xp3LZmdM)
+AMA(ask me anything) session [here](https://www.youtube.com/watch?v=Ap8xp3LZmdM)
 
 ## 1.1 Meet the team
 
@@ -179,6 +179,7 @@ minimum_turning_radius(30, 12) # 75m
 * Go Left - in which case she will travel a total distance of L3 + L4.
 * Go Right - in which case she will travel a total distance of L1 + L2.
 
+![maze](./assets/maze.png)
 ```python
 def make_decision(L1, L2, L3, L4):
     return 'R' if L1 + L2 < L3 + L4 else 'L'
@@ -197,14 +198,24 @@ I had no issues neither with the math, nor with the programming, so I seem to be
 
 ## 3.1 Recommended courses
 
-* [Basic Geometry](https://www.khanacademy.org/math/basic-geo)
+### 3.1.1 Math
+
+* [Geometry](https://www.khanacademy.org/math/basic-geo)
 * [Intro to Algebra review](https://www.udacity.com/course/intro-algebra-review--ma004)
 * [Algebra I](https://www.khanacademy.org/math/algebra)
 * [Algebra II](https://www.khanacademy.org/math/algebra2)
 * [Trigonometry](https://www.khanacademy.org/math/trigonometry)
-* [C++ for programmers](https://www.udacity.com/course/c-for-programmers--ud210)
-* [Intro to data analysis](https://www.udacity.com/course/intro-to-data-analysis--ud170)
+* [Statistics and probability](https://www.khanacademy.org/math/statistics-probability)
+* [Linear algebra](https://www.khanacademy.org/math/linear-algebra)
+* [Precalculus](https://www.khanacademy.org/math/precalculus)
+* [Differential calculus](https://www.khanacademy.org/math/calculus-home/differential-calculus)
+* [Integral calculus](https://www.khanacademy.org/math/calculus-home/integral-calculus)
+
+### 3.1.2 Software
+
 * [Design of computer programs](https://www.udacity.com/course/design-of-computer-programs--cs212)
+* [Intro to data analysis](https://www.udacity.com/course/intro-to-data-analysis--ud170)
+* [C++ for programmers](https://www.udacity.com/course/c-for-programmers--ud210)
 
 ## 3.2 Math with python
 
